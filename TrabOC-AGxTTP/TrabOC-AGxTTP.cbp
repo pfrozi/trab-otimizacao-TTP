@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TrabOC-AGxTTP" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/traboc_ttpga" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="-o NL6_4_code_changed.sol -t 6 -T 100 -p 0.6 -c 0.1 -m 0.30 -d 10000 -s 5 -M ATL,NYM,PHI,MON,FLA,PIT/0,745,665,929,605,521/745,0,80,337,1090,315/665,80,0,380,1020,257/929,337,380,0,1380,408/605,1090,1020,1380,0,1010/521,315,257,408,1010,0" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/traboc_ttpga" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="src/GaTTP.cpp" />
+		<Unit filename="src/GaTTP.h" />
+		<Unit filename="src/Individual.cpp" />
+		<Unit filename="src/Individual.h" />
+		<Unit filename="src/Population.cpp" />
+		<Unit filename="src/Population.h" />
+		<Unit filename="src/Util.cpp" />
+		<Unit filename="src/Util.h" />
+		<Unit filename="src/main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
